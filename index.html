@@ -16,41 +16,41 @@
 </head>
 
 <body>
-  
-<div id="loginModal" class="modal fade" role="dialog">
-    <div class="modal-dialog modal-lg" role="content">
-        <!-- Modal content-->
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title">Login </h4>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body">
-                <form class="form-inline">
-                    <div class="form-group">
-                        <label class="sr-only" for="exampleInputEmail3">Email address</label>
-                        <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3"
-                            placeholder="Enter email">
-                    </div>
-                    <div class="form-group">
-                        <label class="sr-only" for="exampleInputPassword3">Password</label>
-                        <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3"
-                            placeholder="Password">
-                    </div>
-                    <div class="form-check">
-                        <label class="form-check-label">
-                            <input class="form-check-input" type="checkbox"> Remember me
-                        </label>
-                    </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Cancel</button>
-                <button type="submit" class="btn btn-primary btn-sm">Sign in</button>
+
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login </h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                            <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3"
+                                placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="exampleInputPassword3">Password</label>
+                            <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3"
+                                placeholder="Password">
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox"> Remember me
+                            </label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary btn-sm">Sign in</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
     <header class="jumbotron">
         <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
@@ -61,18 +61,21 @@
                 <a class="navbar-brand mr-auto" href="#"><img src="img/logo.png" height="30" width="41"></a>
                 <div class="collapse navbar-collapse" id="Navbar">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a>
+                        <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span>
+                                Home</a>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span>
+                        <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span
+                                    class="fa fa-info fa-lg"></span>
                                 About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span>
+                                Menu</a></li>
                         <li class="nav-item"><a class="nav-link" href="./contactus.html"><span
                                     class="fa fa-address-card fa-lg"></span> Contact</a></li>
                     </ul>
                 </div>
-        
+
             </div>
-        </nav>       
+        </nav>
         <div class="container">
             <div class="row row-header">
                 <div class="col-xs-12 col-md-8">
@@ -86,14 +89,14 @@
                     <img src="img/logo.png" class="img-responsive  center-block">
                 </div>
                 <div class="col-xs-12 col-md-2" style="margin-top: 100px;">
-                <a type="button" class="btn btn-warning btn-sm btn-block" data-toggle="modal" data-target="#reservationFormModal"
-                    role="button">Reserve Table</a>
+                    <a type="button" class="btn btn-warning btn-sm btn-block" data-toggle="modal"
+                        data-target="#reservationFormModal" role="button">Reserve Table</a>
                 </div>
             </div>
         </div>
     </header>
 
-    
+
 
 
     <div id="reservationFormModal" class="modal fade" role="dialog">
@@ -136,7 +139,8 @@
                             <div class="col-md-4">
                                 <div class="btn-group" data-toggle="buttons">
                                     <label class="btn btn-success active">
-                                        <input type="radio" name="section" value="nonsmoking" autocomplete="off" checked>
+                                        <input type="radio" name="section" value="nonsmoking" autocomplete="off"
+                                            checked>
                                         Non-Smoking
                                     </label>
                                     <label class="btn btn-danger">
@@ -149,14 +153,18 @@
                             <label for="lastname" class="col-md-2 col-form-label">Date and Time</label>
                             <div class="col-md-4">
                                 <div class="input-group">
-                                    <span class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></span>
-                                    <input class="form-control" type="date" name="dateBooking" value="" placeholder="Date">
+                                    <span class="input-group-addon"><i class="fa fa-calendar"
+                                            aria-hidden="true"></i></span>
+                                    <input class="form-control" type="date" name="dateBooking" value=""
+                                        placeholder="Date">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="input-group">
-                                    <span class="input-group-addon"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
-                                    <input class="form-control" type="hour" name="hourBooking" value="" placeholder="Time">
+                                    <span class="input-group-addon"><i class="fa fa-clock-o"
+                                            aria-hidden="true"></i></span>
+                                    <input class="form-control" type="hour" name="hourBooking" value=""
+                                        placeholder="Time">
                                 </div>
                             </div>
                         </div>
@@ -171,9 +179,9 @@
             </div>
         </div>
     </div>
-    
+
     <div class="container">
-    
+
         <div class="row row-content">
             <div class="col">
                 <div id="mycarousel" class="carousel slide" data-ride="carousel">
@@ -193,8 +201,10 @@
                             <img class="d-block img-fluid" src="img/buffet.png" alt="Uthappizza">
                             <div class="carousel-caption d-none d-md-block">
                                 <h2>Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
-                                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing
-                                    appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft
+                                <p>Featuring mouthwatering combinations with a choice of five different salads, six
+                                    enticing
+                                    appetizers, six main entrees and five choicest desserts. Free flowing bubbly and
+                                    soft
                                     drinks. All for just $19.99 per person </p>
                             </div>
                         </div>
@@ -223,18 +233,15 @@
                         <span class="carousel-control-next-icon"></span>
                     </a>
                     <div class="btn-group" id="carouselButton">
-                        <button class="btn btn-danger btn-sm" id="carousel-pause">
-                            <span class="fa fa-pause"></span>
-                        </button>
-                        <button class="btn btn-danger btn-sm" id="carousel-play">
-                            <span class="fa fa-play"></span>
+                        <button class="btn btn-danger btn-sm" id="carouselButtona">
+                            <span id="carousel-button" class="fa fa-pause"></span>
                         </button>
                     </div>
                 </div>
-               
+
             </div>
         </div>
-    
+
         <div class="row row-content align-items-center">
             <div class="col-sm-4 col-md-3 flex-last">
                 <h3>Our Lipsmacking Culinary Creations</h3>
@@ -253,27 +260,30 @@
                 </div>
             </div>
         </div>
-    
-    
+
+
         <div class="row row-content align-items-center">
             <div class="col-sm-4 col-md-3">
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col-sm col-md">
                 <h2>Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six
-                    main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per
+                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers,
+                    six
+                    main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99
+                    per
                     person </p>
             </div>
         </div>
-    
+
         <div class="row row-content align-items-center">
             <div class="col-sm-4 col-md-3 flex-last">
                 <h3>Meet our Culinary Specialists</h3>
             </div>
             <div class="col-sm col-md flex-first">
                 <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/alberto.png" alt="Alberto Somayya">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/alberto.png"
+                        alt="Alberto Somayya">
                     <div class="media-body">
                         <h2 class="mt-0">Alberto Somayya</h2>
                         <h4>Executive Chef</h4>
@@ -313,12 +323,16 @@
                 </div>
                 <div class="col col-sm-4 align-self-center">
                     <div class="text-center">
-                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i
+                                class="fa fa-google-plus"></i></a>
                         <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i
                                 class="fa fa-facebook"></i></a>
-                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
-                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i
+                                class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                                class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
+                                class="fa fa-youtube"></i></a>
                         <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
                     </div>
                 </div>
@@ -337,15 +351,25 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
     <script>
-        $(document).ready(function () {
-            $("#mycarousel").carousel({ interval: 2000 });
-            $("#carousel-pause").click(function () {
+    $(document).ready(function () {
+        $("#mycarousel").carousel({ interval: 2000 });
+        $("#carouselButton").click(function () {
+            if ($("#carouselButtona").children("span").hasClass('fa-pause')) {
                 $("#mycarousel").carousel('pause');
-            });
-            $("#carousel-play").click(function () {
+                $("#carouselButtona").children("span").removeClass('fa-pause');
+                $("#carouselButtona").children("span").addClass('fa-play');
+            }
+            else if ($("#carouselButtona").children("span").hasClass('fa-play')) {
                 $("#mycarousel").carousel('cycle');
-            });
+                $("#carouselButtona").children("span").removeClass('fa-play');
+                $("#carouselButtona").children("span").addClass('fa-pause');
+                 
+            }
+            
         });
+
+        
+    });
     </script>
 </body>
 
